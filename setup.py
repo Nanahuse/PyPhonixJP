@@ -7,6 +7,7 @@ setup(
     install_requires=[],
     license="MIT",
     url="https://github.com/Nanahuse/PyPhonixJP",
+    description="英単語をひらがなでの読みに変換する。詳しくはHomepage(Github)をご覧ください。",
     classifiers=[
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3.10",
