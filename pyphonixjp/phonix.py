@@ -4,14 +4,8 @@
 
 import re
 
-from .conversion_table import Word, VOWEL_ONN, PAIRS_PHONIX, PAIRS_PRONUNCIATION, CONSONANT_SIMPE
-
-
-def convert2kana(raw: str, word_table: list[Word]):
-    tmp = raw
-    for word in word_table:
-        tmp = tmp.replace(word.spell, word.kana)
-    return tmp
+from .common import Word, convert2kana
+from .conversion_table import VOWEL_ONN, PAIRS_PHONIX, PAIRS_PRONUNCIATION, CONSONANT_SIMPE
 
 
 # 英単語の判別

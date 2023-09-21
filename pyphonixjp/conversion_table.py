@@ -2,13 +2,7 @@
 # This software is released under the MIT License
 # https://github.com/Nanahuse/PyPhonixJP/blob/main/LICENSE
 
-from dataclasses import dataclass
-
-
-@dataclass
-class Word(object):
-    spell: str
-    kana: str
+from .common import Word
 
 
 CONSONANT_SIMPE = "kstnhmyrwgzdbp"

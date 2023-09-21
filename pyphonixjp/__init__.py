@@ -4,7 +4,8 @@
 
 # flake8: noqa
 
+from .common import update_list
 from .conversion_table import PAIRS_PHONIX, PAIRS_PRONUNCIATION
 from .phonix import convert
 
-__all__ = ["convert", "PAIRS_PHONIX", "PAIRS_PRONUNCIATION"]
+__all__ = ["convert", "update_list", "PAIRS_PHONIX", "PAIRS_PRONUNCIATION"]
