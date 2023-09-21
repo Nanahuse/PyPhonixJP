@@ -14,11 +14,11 @@ def convert2kana(raw: str, word_table: list[Word]):
     return tmp
 
 
-# アルファベットを見分ける正規表現
-RE_ALPHAVET = re.compile("[a-zA-Z]*")
+# 英単語の判別
+RE_ALPHAVET = re.compile("[a-zA-Z]+")
 
 # マジックEの変換定義
-MAJIC_E = re.compile("[aeiou][bcdfghjklmnpqrstvwxyz]e$")
+MAJIC_E = re.compile("[aeiou][^aeiou]e$")
 
 
 def convert(word: str) -> str | None:
