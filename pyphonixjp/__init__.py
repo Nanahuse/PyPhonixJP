@@ -4,5 +4,8 @@
 
 # flake8: noqa
 
-from pyphonixjp.phonix import convert, PAIRS_PHONIX, PAIRS_PRONUNCIATION
-from pyphonixjp.replace_bace import update_list
+from .common import update_list
+from .conversion_table import PAIRS_PHONIX, PAIRS_PRONUNCIATION
+from .phonix import convert
+
+__all__ = ["convert", "update_list", "PAIRS_PHONIX", "PAIRS_PRONUNCIATION"]
