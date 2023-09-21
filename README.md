@@ -5,7 +5,7 @@
 
 # Install
 ```
-pip install git+https://github.com/Nanahuse/PyPhonixJP
+pip install pyphonixjp
 ```
 
 # How to Use
