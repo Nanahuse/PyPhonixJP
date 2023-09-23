@@ -4,7 +4,7 @@
 
 import re
 
-from .common import Word, convert2kana
+from .common import convert2kana
 from .conversion_table import VOWEL_ONN, PAIRS_PHONIX, PAIRS_PRONUNCIATION, CONSONANT_SIMPE
 
 
