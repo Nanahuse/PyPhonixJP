@@ -1,3 +1,7 @@
+# Copyright (c) 2023 Nanahuse
+# This software is released under the MIT License
+# https://github.com/Nanahuse/PyPhonixJP/blob/main/LICENSE
+
 from dataclasses import dataclass
 
 
