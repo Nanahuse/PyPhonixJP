@@ -24,11 +24,10 @@ print(convert("pyphonixjp"))
 # パイフォニクスジェイピー
 ```
 
-# How to convert
+# convert step
 1. マジックEの変換
 1. PHONIX規則に基づく変換（PAIRS_PHONIXを使用）
 1. ローマ字読みやアルファベットの変換（PAIRS_PRONUNCIATIONを使用）
-1. ローマ字読みやアルファベットの変換（PAIRS_PRONUNCIATIONを使用）2回目（1回では変換しきれないため）
 
 # Lisence
 MITライセンス  
